@@ -76,6 +76,11 @@ input {
      justify-content: center;
      padding: 3rem;
      color: #fff;
+     font-size: 15px;
+}
+
+.footer span {
+     font-size: 15px;
 }
 
 .footer p span:nth-child(2){
