@@ -1,0 +1,113 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Segoe UI", sans-serif;
+     color: #fff;
+     font-size: 18px;
+}
+
+body {
+     background: #5E8B7E;
+}
+
+.heading {
+     text-align: center;
+     padding-top: 1rem;
+
+}
+
+.heading h1 {
+     color: #FFA17A;
+     font-size: 2.5rem;
+}
+
+.heading p {
+     width: 50%;
+     margin: 2px auto;
+     font-style: italic;
+}
+
+.wrapper {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 2rem;
+     padding: 0 2rem;
+}
+
+.container {
+     width: 450px;
+     background: #007F3B;
+     padding: 70px 50px;
+     box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+     border-radius: 8px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.input-container {
+     width: 45%;
+}
+
+label {
+     color: #FFA17A;
+     font-size: 20px;
+     font-weight: 400;
+}
+
+input {
+     width: 100%;
+     height: 50px;
+     border-radius: 5px;
+     text-align: center;
+     border: none;
+     border-bottom: 2px solid #FFA17A;
+     outline: none;
+     margin-top: 8px;
+     padding: 0 10px;
+     color: #fff;
+     background: #04612f;
+}
+
+.footer {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 3rem;
+     color: #fff;
+}
+
+.footer p span:nth-child(2){
+     color: #FFA17A;
+}
+
+/* media queries  */
+@media (max-width: 769px) {
+     .heading h1 {
+          font-size: 1.9rem;
+     }
+
+     .heading p {
+          width: 100%;
+          padding: 0 2rem;
+     }
+}
+
+@media (max-width: 450px) {
+     .heading h1 {
+          font-size: 1.7rem;
+     }
+
+     label {
+          font-size: 14px;
+     }
+
+     .footer {
+          padding: 1rem;
+     }
+
+     .footer p, .footer p span{
+          font-size: 14px;
+     }
+}
