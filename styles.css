@@ -12,7 +12,6 @@
 }
 
 body {
-     /* background: #5E8B7E; */
      background-image: linear-gradient(to top, #00695c, #00695c, #00695c, #00695c, #00695c);
 }
 
@@ -58,7 +57,7 @@ body {
 label {
      color: var(--light-blue);
      font-size: 20px;
-     font-weight: 400;
+     font-weight: 500;
 }
 
 input {
