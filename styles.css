@@ -1,5 +1,5 @@
 :root {
-     --light-blue: #89A2FF;
+     --light-blue: #FF9671;
 }
 
 * {
@@ -13,7 +13,7 @@
 
 body {
      /* background: #5E8B7E; */
-     background-image: linear-gradient(to top, #007f3b, #007f3b, #007f3b, #007f3b, #007f3b);
+     background-image: linear-gradient(to top, #00695c, #00695c, #00695c, #00695c, #00695c);
 }
 
 .heading {
@@ -43,7 +43,7 @@ body {
 
 .container {
      width: 450px;
-     background: #007F3B;
+     background: #00695C;
      padding: 70px 50px;
      box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
      border-radius: 8px;
@@ -72,7 +72,7 @@ input {
      margin-top: 8px;
      padding: 0 10px;
      color: #fff;
-     background: #04612f;
+     background: #00695C;
 }
 
 .footer {
